@@ -1,0 +1,28 @@
+// js se backend nhi bn sakta kyuki js ke pass wo functionalities nhi h jinse backend banta h
+
+// Node.js (ryan dahl)
+    |-> programming language X
+    |-> technology           X
+    |-> framework            X
+    |-> library              X
+
+    |-> js runtime environment  ✔
+
+// How?
+    hum js ka code likhenge jo ki wrapper layer of js receive kregi and wo code v8 engine ke c++ modules ke sath server create krega
+    -> nodeJs is a js runtime environment
+
+
+// installation
+    1. download nodeJs (node -v for version)
+    2. Terminal
+        npm init -y
+    3. go to node
+        FileSystem
+            const fs = require('node:fs');
+                we will learn Callback API
+                    |-> writefile
+                    |-> appendfile
+                    |-> copyfile
+                    |-> rename
+                    |-> unlink
