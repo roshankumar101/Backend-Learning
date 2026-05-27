@@ -1,0 +1,21 @@
+// npm -> node package manager(beginning)
+// now -> npm has no name
+
+// nodeJs core me jo install hoke aata h wo hota h "module"
+// npm se jo download krte h wo hota h "package"
+
+// Installing and Uninstalling [basics & advanced]
+    1. install -> npm i packageName
+    2. uninstall -> npm uninstall packageName
+
+    3. perticular version -> npm i packageName@version[eg:- 3.0.9]
+
+// package.json
+    // dependencies -> packages and packages ki dependencies
+    // devdependencies -> aise packages jo sirf development me kaam aayenge(deployment me nhi)
+        (npm i packageName --save-dev)
+    
+
+// commands
+    start/test -> node/npm install krne se ye do command OS me save kr dete h issiliye iske sath "run" nhi lgana pdta
+    except this -> we have to use run -> find in the script
