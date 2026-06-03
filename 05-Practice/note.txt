@@ -1,0 +1,31 @@
+initialize the project with npm   -> npm init -y
+install express                   -> npm i express
+
+// session   cookie               -> npm i cookie-parser
+    // humlog kuch v data frontend par browser per rakh sakte h, and jab v hum kuch v request backend per krenge to frontend per saved data automatically backend per chala jayega 
+    // browser pe jo saved h wo cookie
+    // and server jo connection h wo session
+
+
+setting up parsers for form
+    app.use(express.json());
+    app.use(express.urlencoded({ extended: true }));
+    
+setting up ejs for ejs pages
+    npm i ejs
+    setup ejs as a view engine
+
+setting up public static files
+    path.join(__dirname, 'public')  -> till current + public
+
+
+
+dynamic routing
+    dynamic routing
+        go to browser
+        enter the url which we want and press enter
+        now create the url route
+        send any response
+        to make it dynamic -> realize which part is dynamic and put  ":"
+
+    how to get data coming from frontend at backend route
