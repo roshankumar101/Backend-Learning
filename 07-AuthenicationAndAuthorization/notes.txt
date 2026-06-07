@@ -1,0 +1,25 @@
+authentication - to validate the users 
+
+authorization - 
+
+
+Process
+    1. cookie setup and read
+        npm i cookie-parser
+    2. bcrypt use for password encryption and decryption
+        npm i bcrypt
+    3. jwt and store data and access
+        npm i jsonwebtoken
+
+
+
+
+// task
+    1. create user acc
+        mongoose
+        schema
+        model
+        usercreate -> password -> hash
+        jwt token -> cookie
+
+        login -> token -> decrypt -> email
