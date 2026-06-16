@@ -18,7 +18,7 @@ const postModel = require('./models/post');
 
 
 const isLoggedIn = (req, res, next) =>{
-    if(req.cookies.token === '') res.redirect('/login');
+    if(req.cookies.token === '' || req.cookies.token == null) res.redirect('/login');
     else{
         let data = jwt.verify(req.cookies.token, 'secret');
         req.user = data;
@@ -136,8 +136,7 @@ app.post('/post', isLoggedIn, async (req, res) => {
     res.redirect('/profile');
 })
 
-
-
+res.redirect('/login')
 
 
 app.listen(3000);
